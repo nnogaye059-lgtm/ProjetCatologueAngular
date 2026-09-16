@@ -1,1 +1,8 @@
-<p>navbar works!</p>
+<nav class="navbar">
+  <a routerLink="/" class="logo">Notre catalogue</a>
+  <div class="nav-links">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Accueil</a>
+    <a routerLink="/a-propos" routerLinkActive="active">À propos</a>
+    <a routerLink="/contact" routerLinkActive="active">Contact</a>
+  </div>
+</nav>
