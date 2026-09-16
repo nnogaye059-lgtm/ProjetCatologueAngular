@@ -1,14 +1,16 @@
 .detail {
   max-width: 600px;
   margin: 2rem auto;
-  padding: 1rem;
+  padding: var(--espacement);
+  background-color: white;
+  border-radius: var(--rayon-bordure);
 }
 
 .detail img {
   width: 100%;
   max-height: 300px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: var(--rayon-bordure);
 }
 
 .categorie {
@@ -19,8 +21,9 @@
 .prix {
   font-size: 1.5rem;
   font-weight: bold;
+  color: var(--couleur-principale);
 }
 
 .indisponible {
-  color: red;
+  color: var(--couleur-danger);
 }

@@ -2,14 +2,15 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.5rem;
-  padding: 1rem;
+  padding: var(--espacement);
 }
 
 .carte {
   border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1rem;
+  border-radius: var(--rayon-bordure);
+  padding: var(--espacement);
   text-align: center;
+  background-color: white;
 }
 
 .carte img {
@@ -21,10 +22,10 @@
 
 .prix {
   font-weight: bold;
-  color: #333;
+  color: var(--couleur-principale);
 }
 
 .indisponible {
-  color: red;
+  color: var(--couleur-danger);
   font-size: 0.9rem;
 }
