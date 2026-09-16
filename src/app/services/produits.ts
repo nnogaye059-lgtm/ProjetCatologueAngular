@@ -13,7 +13,7 @@ export class Produits {
       description: 'Casque bluetooth avec réduction de bruit active, autonomie 30h.',
       prix: 24990,
       categorie: 'Électronique',
-      image: 'https://placehold.co/300x200',
+      image: 'https://loremflickr.com/300/200/headphones',
       disponible: true
     },
     {
@@ -22,7 +22,7 @@ export class Produits {
       description: 'Suivi d\'activité, notifications, autonomie 5 jours.',
       prix: 39990,
       categorie: 'Électronique',
-      image: 'https://placehold.co/300x200',
+      image: 'https://loremflickr.com/300/200/smartwatch',
       disponible: true
     },
     {
@@ -31,7 +31,7 @@ export class Produits {
       description: 'Compartiment ordinateur, résistant à l\'eau, 20L.',
       prix: 15990,
       categorie: 'Mode',
-      image: 'https://placehold.co/300x200',
+      image: 'https://loremflickr.com/300/200/backpack',
       disponible: true
     },
     {
@@ -40,7 +40,7 @@ export class Produits {
       description: 'Semelle amortissante, respirant, plusieurs coloris.',
       prix: 22990,
       categorie: 'Mode',
-      image: 'https://placehold.co/300x200',
+      image: 'https://loremflickr.com/300/200/sneakers',
       disponible: false
     },
     {
@@ -49,7 +49,7 @@ export class Produits {
       description: 'Luminosité réglable, port USB intégré.',
       prix: 8990,
       categorie: 'Maison',
-      image: 'https://placehold.co/300x200',
+      image: 'https://loremflickr.com/300/200/desklamp',
       disponible: true
     },
     {
@@ -58,7 +58,7 @@ export class Produits {
       description: 'Couverture rigide, 200 pages, format A5.',
       prix: 2990,
       categorie: 'Papeterie',
-      image: 'https://placehold.co/300x200',
+      image: 'https://loremflickr.com/300/200/notebook',
       disponible: true
     }
   ];
