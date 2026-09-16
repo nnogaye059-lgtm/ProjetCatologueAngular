@@ -1,0 +1,14 @@
+<div class="liste-produits">
+  <h1>Notre catalogue</h1>
+
+  <div class="grille">
+    <div class="carte" *ngFor="let produit of produits">
+      <img [src]="produit.image" [alt]="produit.nom">
+      <h3>{{ produit.nom }}</h3>
+      <p>{{ produit.categorie }}</p>
+      <p class="prix">{{ produit.prix }} FCFA</p>
+      <p *ngIf="!produit.disponible" class="indisponible">Indisponible</p>
+      <a [routerLink]="['/produits', produit.id]">Voir le détail</a>
+    </div>
+  </div>
+</div>
