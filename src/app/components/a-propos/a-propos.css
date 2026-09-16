@@ -1,0 +1,9 @@
+.about {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+  line-height: 1.6;
+}
+.about h1 {
+  margin-bottom: 1rem;
+}
