@@ -1,1 +1,15 @@
-<p>detail-produit works!</p>
+<div class="detail" *ngIf="produit; else nonTrouve">
+  <a routerLink="/">← Retour au catalogue</a>
+
+  <img [src]="produit.image" [alt]="produit.nom">
+  <h1>{{ produit.nom }}</h1>
+  <p class="categorie">{{ produit.categorie }}</p>
+  <p class="description">{{ produit.description }}</p>
+  <p class="prix">{{ produit.prix }} FCFA</p>
+  <p *ngIf="!produit.disponible" class="indisponible">Produit indisponible</p>
+</div>
+
+<ng-template #nonTrouve>
+  <p>Produit introuvable.</p>
+  <a routerLink="/">← Retour au catalogue</a>
+</ng-template>
