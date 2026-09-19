@@ -48,7 +48,7 @@ Le site est ensuite accessible sur `http://localhost:4200/`.
 ## 🌐 Déploiement (bonus)
 
 <!-- Si vous déployez sur Firebase, ajoutez le lien ici -->
-Lien du site déployé : *(à venir)*
+Lien du site déployé : par : Lien du site déployé : https://mon-projet-angular-6344e.web.app
 
 ## 📚 Notions Angular démontrées
 
